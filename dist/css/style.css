@@ -1157,7 +1157,7 @@ label {
 }
 
 .sr .has-animations .is-revealing {
-    visibility: hidden
+    visibility: visible
 }
 
 .input,
@@ -1657,7 +1657,6 @@ label {
 
 .body-wrap {
     background: #fff;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     min-height: 100vh
