@@ -243,7 +243,7 @@ html {
 }
 
 body {
-    background: #fff;
+    background: #f2f7ff;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased
 }
@@ -523,7 +523,7 @@ h6,
 .text-light .h4,
 .text-light .h5,
 .text-light .h6 {
-    color: #fff !important
+    color: #f2f7ff !important
 }
 
 .text-sm {
@@ -728,7 +728,7 @@ label {
     line-height: 16px;
     text-transform: uppercase;
     text-decoration: none;
-    background-color: #fff;
+    background-color: #f2f7ff;
     color: #4992F0 !important;
     border: none;
     height: auto;
@@ -1162,7 +1162,7 @@ label {
 
 .input,
 .textarea {
-    background-color: #fff;
+    background-color: #f2f7ff;
     border-width: 1px;
     border-style: solid;
     border-color: #E3E7EB;
@@ -1281,7 +1281,7 @@ label {
     line-height: 16px;
     text-transform: uppercase;
     text-decoration: none !important;
-    background-color: #fff;
+    background-color: #f2f7ff;
     color: #4992F0 !important;
     border: none;
     border-radius: 2px;
@@ -1335,18 +1335,18 @@ label {
 }
 
 .button-primary {
-    color: #fff !important;
+    color: #f2f7ff !important;
     transition: background .15s ease
 }
 
 .button-primary {
-    background: #2e83ef;
-    background: linear-gradient(65deg, #1274ED 0, #4992F0 100%)
+    background: #5f64fa;
+    background: linear-gradient(65deg, #30347c 0, #5f64fa 100%)
 }
 
 .button-primary:hover {
-    background: #3386ef;
-    background: linear-gradient(65deg, #1777ed 0, #4e95f0 100%)
+    background: #5f64fa;
+    background: linear-gradient(65deg, #30347c 0, #5f64fa 100%)
 }
 
 .button-block {
@@ -1583,7 +1583,7 @@ label {
     justify-content: center;
     align-items: center;
     padding: 15px;
-    background: #fff;
+    background: #f2f7ff;
     border-radius: 50%;
     box-shadow: 0 16px 48px #E3E7EB;
     mix-blend-mode: multiply;
@@ -1656,7 +1656,7 @@ label {
 }
 
 .body-wrap {
-    background: #fff;
+    background: #f2f7ff;
     display: flex;
     flex-direction: column;
     min-height: 100vh
@@ -1721,7 +1721,7 @@ main {
 
 .site-footer a:hover,
 .site-footer a:active {
-    color: #fff;
+    color: #f2f7ff;
     text-decoration: underline
 }
 
@@ -1809,7 +1809,6 @@ main {
 }
 
 .header-logo-image {
-    max-width: 500px;
     max-height: 200px;
 }
 
