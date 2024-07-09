@@ -1041,16 +1041,18 @@
     <script type="text/javascript">
         function sendEmail() {
             var email = document.getElementById('nemail').value;
-            var templateParams = {
-                email: email
-            };
-            emailjs.send("service_t8exhed", "template_7lgbnhb", templateParams)
-                .then(function (response) {
-                    console.log('SUCCESS!', response.status, response.text);
-                    document.getElementById('demoForm').reset(); // Clear the form input
-                }, function (error) {
-                    console.log('FAILED...', error);
-                });
+            if (email) {
+                var templateParams = {
+                    email: email
+                };
+                emailjs.send("service_t8exhed", "template_7lgbnhb", templateParams)
+                    .then(function (response) {
+                        console.log('SUCCESS!', response.status, response.text);
+                        document.getElementById('demoForm').reset(); // Clear the form input
+                    }, function (error) {
+                        console.log('FAILED...', error);
+                    });
+            }
         }
     </script>
 </body>
