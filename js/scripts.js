@@ -268,19 +268,6 @@
     }
 
 
-    /* Newsletter Form */
-    $("#newsletterForm").validator().on("submit", function(event) {
-    	if (event.isDefaultPrevented()) {
-            // handle the invalid form...
-            nformError();
-            nsubmitMSG(false, "Please fill all fields!");
-        } else {
-            // everything looks good!
-            event.preventDefault();
-            nsubmitForm();
-        }
-    });
-
     function nsubmitForm() {
         // initiate variables with form content
 		var email = $("#nemail").val();

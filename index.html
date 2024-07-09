@@ -896,7 +896,7 @@
                         <h2>Get in Touch for a Demo </h2>
 
                         <!-- Newsletter Form -->
-                        <form id="newsletterForm" data-toggle="validator" data-focus="false"
+                        <form id="demoForm" data-toggle="validator" data-focus="false"
                             onsubmit="sendEmail(); return false;">
                             <div class="form-group">
                                 <input type="email" class="form-control-input" id="nemail" required>
@@ -1047,6 +1047,7 @@
             emailjs.send("service_t8exhed", "template_7lgbnhb", templateParams)
                 .then(function (response) {
                     console.log('SUCCESS!', response.status, response.text);
+                    document.getElementById('demoForm').reset(); // Clear the form input
                 }, function (error) {
                     console.log('FAILED...', error);
                 });
