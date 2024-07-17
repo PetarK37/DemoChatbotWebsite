@@ -11,6 +11,26 @@
 
         gtag('config', 'G-SLB456MHX6');
     </script>
+    <!-- Cookie Consent by FreePrivacyPolicy.com -->
+    <script type="text/javascript" src="//www.freeprivacypolicy.com/public/cookie-consent/4.1.0/cookie-consent.js"
+        charset="UTF-8"></script>
+
+    <script type="text/javascript" charset="UTF-8">
+        document.addEventListener('DOMContentLoaded', function () {
+            console.log('Initializing cookie consent script');
+            cookieconsent.run({
+                "notice_banner_type": "interstitial",
+                "consent_type": "express",
+                "palette": "light",
+                "language": "en",
+                "page_load_consent_levels": ["strictly-necessary"],
+                "notice_banner_reject_button_hide": false,
+                "preferences_center_close_button_hide": false,
+                "page_refresh_confirmation_buttons": false,
+                "website_name": "ZenithChat"
+            });
+        });
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -990,6 +1010,13 @@
                                         zenithchat.co </a>
                                 </div>
                             </li>
+                            <li class="media">
+                                <div class="media-body">
+                                    <i class="fas fa-square"></i> <a class="white" href="#"
+                                        id="open_preferences_center">Update cookies preferences</a>
+                                    </a>
+                                </div>
+                            </li>
                             <!-- <li class="media">
                                 <i class="fas fa-square"></i>
                                 <div class="media-body">Read our <a class="white" href="terms-conditions.html">Terms &
@@ -1037,8 +1064,6 @@
     </div> <!-- end of copyright -->
     <!-- end of copyright -->
 
-
-    <!-- Scripts -->
     <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
     <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
     <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
