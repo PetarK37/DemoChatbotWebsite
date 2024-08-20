@@ -2242,4 +2242,11 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 
+.btn-flex {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	align-items: flex-start;
+}
+
 /* end of min-width width 1200px */
