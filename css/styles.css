@@ -2244,7 +2244,6 @@ a:hover.back-to-top {
 
 .btn-flex {
 	display: flex;
-	flex-direction: column;
 	gap: 15px;
 	align-items: flex-start;
 }
