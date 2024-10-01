@@ -2317,3 +2317,10 @@ a:hover.back-to-top {
 		margin-top: 5px;
 	}
 }
+
+.free {
+	color: rgba(95, 100, 250);
+	font-weight: bolder;
+	font-size: 130%;
+	text-transform: uppercase;
+}
