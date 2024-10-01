@@ -152,12 +152,12 @@ a.white {
 
 .btn-solid-reg {
 	display: inline-block;
-	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
+	padding: 1.19rem 2.13rem 1.19rem 2.13rem;
 	border: 0.125rem solid #5f64fa;
 	border-radius: 2rem;
 	background-color: #5f64fa;
 	color: #f2f7ff;
-	font: 700 0.875rem/0 "Open Sans", sans-serif;
+	font: 700 1.2rem/0 "Open Sans", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
@@ -2323,4 +2323,10 @@ a:hover.back-to-top {
 	font-weight: bolder;
 	font-size: 130%;
 	text-transform: uppercase;
+}
+
+
+.nav-item-features>a {
+	padding: 10px 30px !important;
+	font-size: 2rem;
 }
