@@ -2294,8 +2294,6 @@ a:hover.back-to-top {
 	width: 70%;
 }
 
-
-
 @media (max-width: 720px) {
 	.btn-flex {
 		flex-direction: column;
