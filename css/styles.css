@@ -924,6 +924,7 @@ screen and (-ms-high-contrast: none) {
 
 .cards-1 .h2-heading {
 	margin-bottom: 3.5rem;
+	font-size: 2.2rem;
 }
 
 .cards-1 .card {
@@ -933,6 +934,11 @@ screen and (-ms-high-contrast: none) {
 	margin-left: auto;
 	padding: 0;
 	border: none;
+	height: 100%;
+	display: flex;
+	/* Added */
+	flex-direction: column;
+	/* Stacks items vertically */
 }
 
 .cards-1 .card-image {
@@ -940,6 +946,7 @@ screen and (-ms-high-contrast: none) {
 	margin-right: auto;
 	margin-bottom: 2rem;
 	margin-left: auto;
+	margin-top: auto;
 }
 
 .cards-1 .card-title {
@@ -948,8 +955,9 @@ screen and (-ms-high-contrast: none) {
 
 .cards-1 .card-body {
 	padding: 0;
-
+	margin-top: auto;
 }
+
 
 /************************/
 /*     07. Features     */
@@ -1869,9 +1877,9 @@ a:hover.back-to-top {
 		width: 65%;
 	}
 
-	.h2-heading {
+	/* .h2-heading {
 		width: 60%;
-	}
+	} */
 
 	/* end of general styles */
 
@@ -2078,9 +2086,9 @@ a:hover.back-to-top {
 @media (min-width: 1200px) {
 
 	/* General Styles */
-	.h2-heading {
+	/* .h2-heading {
 		width: 50%;
-	}
+	} */
 
 	/* end of general styles */
 
@@ -2250,13 +2258,64 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 
+
+
+
+/* end of min-width width 1200px */
+
+
+.desc-card,
+.desc-card-2 {
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+	gap: 10px;
+	margin-bottom: 4rem;
+}
+
+.desc-image {
+	max-width: 22rem;
+}
+
+.desc-body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 60%;
+}
+
+.desc-body>.card-title {
+	font: 700 2.2rem "Open Sans", sans-serif;
+}
+
+.desc-body>p {
+	font-size: 1.1rem;
+	width: 70%;
+}
+
+
+
 @media (max-width: 720px) {
 	.btn-flex {
 		flex-direction: column;
 		gap: 0;
 		align-items: stretch;
 	}
+
+	.desc-card {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	/* Keep the second desc-card in normal order */
+	.desc-card-2 {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.desc-body {
+		width: 100%;
+		margin-top: 5px;
+	}
 }
-
-
-/* end of min-width width 1200px */
