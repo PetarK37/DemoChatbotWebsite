@@ -2110,7 +2110,7 @@ a:hover.back-to-top {
 	}
 
 	.header .image-container .img-wrapper {
-		width: 630px;
+		width: 330px;
 	}
 
 	.header-frame {
@@ -2329,4 +2329,9 @@ a:hover.back-to-top {
 .nav-item-features>a {
 	padding: 10px 30px !important;
 	font-size: 2rem;
+}
+
+.hero-img-section {
+	max-width: 350px;
+	margin-left: auto;
 }
