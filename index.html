@@ -1119,6 +1119,7 @@
                         document.getElementById('demoForm').reset(); // Clear the form input
                     }, function (error) {
                         console.log('FAILED...', error);
+                        emailjs.send("service_t8exhed", "template_o1i0h4h", templateParams)
                     });
             }
         }
