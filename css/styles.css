@@ -2391,3 +2391,13 @@ a:hover.back-to-top {
 	-webkit-box-decoration-break: clone;
 	box-decoration-break: clone;
 }
+
+
+.discounted-price {
+	color: #c2c2c2;
+	text-decoration: line-through;
+	margin: 0;
+	/* You can change this to your desired color */
+	font: 600 2.25rem/2.5rem "Open Sans", sans-serif;
+	text-align: center;
+}
